@@ -44,7 +44,7 @@ Chords = \chordmode {
   f1.
   a:m
   f
-  c
+  c2.
   g2.
   c1.
 }
@@ -231,48 +231,48 @@ LH = \relative c {
   \key c \major
   \numericTimeSignature \time 6/8  
   
-  c4. (c4) b8 
-  a4. (a4) b8
-  c4. (c4) b8 
-  a4. (a4) b8 \bar ".|:" \stemDown
-  c4._( c4) b8 
-  a4._( a4) b8
-  c4._( c4) b8
-  a2.
-  f
-  g
-  c4._( c8) e, f
+  c4._1 (c4) b8_2 
+  a4._3 (a4) b8_2
+  c4._1 (c4) b8_2 
+  a4._3 (a4) b8_2 \bar ".|:" \stemDown
+  c4._1_( c4) b8_2 
+  a4._3_( a4) b8_2
+  c4._1_( c4) b8_2
+  a2._3
+  f_5
+  g_4
+  c4._1_( c8) e,_5 f_4
   f2.
-  c'
-  f,4. g4.
-  a2.
-  f
-  g
-  e
+  c'_1
+  f,4._5 g4._4
+  a2._3
+  f_5
+  g_4
+  e_5
+  a_2
   a
+  f_4
+  f
+  a_2
   a
+  f_4
   f
+  c'_1
+  g_4
+  c_1
+  g_4
+  c_1
+  g_4
+  f_5
   f
+  a_3
   a
-  a
-  f
-  f
-  c'
-  g
-  c
-  g
-  c
-  g
-  f
-  f
-  a
-  a
-  f
-  f
-  c
-  g'
-  c,
-  <c c,>\fermata
+  f_\markup {\finger "4-1"}
+  f_1
+  c_2
+  g'_1
+  c,_\markup {\finger "2-1"}
+  <c c,>_1_5\fermata
 } 
 
 
